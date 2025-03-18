@@ -9,6 +9,7 @@ public class Test {
 		Session session = sf.openSession();
 		
 		session.save();
+		session.display();
 	}
 
 }
